@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * javac finance/*.java -d classes
+ * javac src/finance/*.java -d classes
  * java -cp ./classes finance.TestMyLib
  * jar -cvf MyFinancialLib.jar -C ./classes .
  * jar tf MyFinancialLib.jar
