@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class Financial implements FinancialInterface {
 
-    private Map<String, Double> mapCurrenciesRate;
+    private final Map<String, Double> mapCurrenciesRate;
 
     public Financial() {
         mapCurrenciesRate = Map.of("CHFEUR", 1.06D, "CHFUSD", 1.14D);
