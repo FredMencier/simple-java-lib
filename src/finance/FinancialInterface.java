@@ -26,5 +26,5 @@ public interface FinancialInterface {
      * @return
      * @throws RateUnavailableException
      */
-    double calculateChange(String fromCurrency, String toCurrency, double amount) throws RateUnavailableException;
+    double calculateChange(final String fromCurrency, final String toCurrency, final double amount) throws RateUnavailableException;
 }
